@@ -28,13 +28,13 @@ proxyConfig:
       - path: "/getlocal"
         matchType: "exact"
     hosts: # 要并发访问的host
-      - host: "https://id9.cc"
+      - host: "https://api.tsutsu.cc"
         weight: 1
       - host: "https://sub.xeton.dev"
         weight: 1
       - host: "https://api.dler.io"
         weight: 1
-      - host: "https://sub.maoxiongnet.com"
+      - host: "https://api.v1.mk"
         weight: 1
     filter:
       timeOut: 5000     # 超时时间 单位毫秒
